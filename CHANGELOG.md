@@ -1,18 +1,18 @@
 # Changelog / Cambios
 
 The 3DS version is the same game as the PSP version. Its versions start at
-0.6.2-alpha; what came before is in the PSP version's changelog.
+0.7.0-alpha; what came before is in the PSP version's changelog.
 
 La versión de 3DS es el mismo juego que la de PSP. Sus versiones empiezan
-en la 0.6.2-alpha; lo de antes está en los cambios de la versión de PSP.
+en la 0.7.0-alpha; lo de antes está en los cambios de la versión de PSP.
 
-## 0.6.2-alpha (in development / en desarrollo)
+## 0.7.0-alpha (in development / en desarrollo)
 
 **English**
 
 The first 3DS version:
 
-- The whole game of the PSP version 0.6.2, written in C for the 3DS
+- The whole game of the PSP version 0.7.0, written in C for the 3DS
   without emulating anything, and playing exactly the same: the same
   levels, jumps, enemies and packs. A pack made for the PSP works on the
   3DS.
@@ -21,7 +21,9 @@ The first 3DS version:
   Azahar emulator.
 - The buttons are the PSP version's, in the same places (B jumps, X
   talks, R shoots). In the menus and in the conversations, A accepts and
-  B goes back. The texts show the 3DS's buttons.
+  B goes back. The texts show the 3DS's buttons; the controls list shows
+  the buttons used in the levels (jump: B). A pack's own pictures of the
+  PSP's buttons are not used on the 3DS.
 - Both screens: in the menus, the top screen shows the menu (on the title
   screen, the game's name with its yellow phrase) and the bottom screen
   its buttons, which can be touched with the stylus. The packs and
@@ -32,7 +34,11 @@ The first 3DS version:
 - The log (`data/cache/log.txt`) also writes down every touch and the
   calls to the SD card that take a long time.
 
-What 0.6.2 brings to the game (also on the PSP):
+What 0.7.0 brings to the game (also on the PSP): *to be written when it
+is finished.*
+
+What 0.6.2 brought to the game (also on the PSP; it was not released on
+the 3DS on its own):
 
 - The title screen shows the game's name. A pack can change it
   (`GAME_TITLE` in its texts).
@@ -51,7 +57,7 @@ What 0.6.2 brings to the game (also on the PSP):
 
 La primera versión para 3DS:
 
-- Todo el juego de la versión 0.6.2 de PSP, escrito en C para la 3DS sin
+- Todo el juego de la versión 0.7.0 de PSP, escrito en C para la 3DS sin
   emular nada, y que se juega exactamente igual: los mismos niveles,
   saltos, enemigos y paquetes. Un paquete hecho para la PSP funciona en
   la 3DS.
@@ -60,7 +66,10 @@ La primera versión para 3DS:
   juega en el emulador Azahar.
 - Los botones son los de la versión de PSP, en el mismo sitio (B salta, X
   habla, R dispara). En los menús y en las conversaciones, A acepta y B
-  vuelve, como es habitual en Nintendo. Los textos enseñan los botones de la 3DS.
+  vuelve, como es habitual en Nintendo. Los textos enseñan los botones de
+  la 3DS; la lista de controles enseña los botones de los niveles (saltar:
+  B). La 3DS no usa los dibujos de los botones de la PSP que traiga un
+  paquete.
 - Las dos pantallas: en los menús, la de arriba enseña el menú (en la
   pantalla de inicio, el nombre del juego con su frase amarilla) y la de
   abajo sus botones, que se pueden tocar con el lápiz. Las listas de
@@ -71,7 +80,11 @@ La primera versión para 3DS:
 - El registro (`data/cache/log.txt`) también apunta cada toque y las
   llamadas a la tarjeta SD que tardan mucho.
 
-Lo que la 0.6.2 trae al juego (también en la PSP):
+Lo que la 0.7.0 trae al juego (también en la PSP): *se escribirá cuando
+esté terminada.*
+
+Lo que la 0.6.2 trajo al juego (también en la PSP; no salió sola en la
+3DS):
 
 - La pantalla de inicio enseña el nombre del juego. Un paquete puede
   cambiarlo (`GAME_TITLE` en sus textos).

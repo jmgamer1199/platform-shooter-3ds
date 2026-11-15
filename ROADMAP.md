@@ -14,10 +14,16 @@ one of the models with the least power, to make sure it works on any 3DS.
 
 ---
 
-## 🔨 0.6.2-alpha — The first 3DS version *(in development)*
+## 🔨 0.7.0-alpha — The first 3DS version: puzzles and mazes *(in development)*
 
-- The whole game of the PSP version 0.6.2: the original levels, level 6,
-  resource packs, characters, rules and 7 languages.
+The whole game of the PSP version 0.7.0, and what the 3DS adds:
+
+- The original levels, level 6, resource packs, characters, rules and 7
+  languages.
+- New in 0.7.0: boxes to push, pressure plates, timed switches and
+  switches in order; riddles from the characters; mazes with doors that
+  lead to other parts of the level, and dark levels. Some textures will
+  be changed.
 - Both screens: the menus' buttons on the touch screen, the game's name on
   the title screen, a blurred pause.
 - It installs in the HOME Menu (.cia), and also plays on the Azahar
@@ -26,13 +32,6 @@ one of the models with the least power, to make sure it works on any 3DS.
 Everything that changed, version by version: [CHANGELOG](CHANGELOG.md).
 
 ---
-
-## 📋 0.7.0 — Puzzles and mazes
-
-- Boxes to push, pressure plates, timed switches and switches in order.
-- Riddles from the characters.
-- Mazes with doors that lead to other parts of the level, and dark levels.
-- Some textures will be changed.
 
 ## 📋 0.8.0 — Secrets and progress
 
@@ -70,11 +69,16 @@ cualquier 3DS.
 
 ---
 
-### 🔨 0.6.2-alpha — La primera versión para 3DS *(en desarrollo)*
+### 🔨 0.7.0-alpha — La primera versión para 3DS: puzles y laberintos *(en desarrollo)*
 
-- Todo el juego de la versión 0.6.2 de PSP: los niveles originales, el
-  nivel 6, los paquetes de recursos, los personajes, las reglas y 7
-  idiomas.
+Todo el juego de la versión 0.7.0 de PSP, y lo que añade la 3DS:
+
+- Los niveles originales, el nivel 6, los paquetes de recursos, los
+  personajes, las reglas y 7 idiomas.
+- Nuevo en la 0.7.0: cajas que se empujan, interruptores de presión, con
+  tiempo y en orden; acertijos de los personajes; laberintos con puertas
+  que llevan a otras partes del nivel, y niveles oscuros. Se cambiarán
+  algunas texturas.
 - Las dos pantallas: los botones de los menús en la pantalla táctil, el
   nombre del juego en la pantalla de inicio y una pausa borrosa.
 - Se instala en el menú HOME (.cia), y también se juega en el emulador
@@ -83,14 +87,6 @@ cualquier 3DS.
 Todo lo que cambió, versión a versión: [CHANGELOG](CHANGELOG.md).
 
 ---
-
-### 📋 0.7.0 — Puzles y laberintos
-
-- Cajas que se empujan, interruptores de presión, con tiempo y en orden.
-- Acertijos de los personajes.
-- Laberintos con puertas que llevan a otras partes del nivel, y niveles
-  oscuros.
-- Se cambiarán algunas texturas.
 
 ### 📋 0.8.0 — Secretos y progreso
 
