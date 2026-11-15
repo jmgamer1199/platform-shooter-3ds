@@ -1,0 +1,84 @@
+name: "Bug / Fallo"
+description: "Something doesn't work, or works wrong / Algo no funciona o funciona mal"
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it! Write in English or in Spanish.
+        ¡Gracias por avisar! Escribe en inglés o en español.
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happens? / ¿Qué pasa?"
+      description: "What you see, and what you expected to see / Lo que ves, y lo que esperabas ver"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "How to make it happen / Cómo hacer que pase"
+      description: "Level, menu, buttons you pressed or touched... / Nivel, menú, botones que pulsaste o tocaste..."
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: "Where do you play? / ¿Dónde juegas?"
+      options:
+        - Old 3DS
+        - Old 3DS XL
+        - Old 2DS
+        - New 3DS
+        - New 3DS XL
+        - New 2DS XL
+        - Azahar (PC)
+        - Azahar (Android)
+        - Other / Otro
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: "System and custom firmware, or emulator version / Versión del sistema y del firmware personalizado, o del emulador"
+      placeholder: "11.17.0-50E, Luma3DS 13.1, Azahar 2126.2..."
+  - type: input
+    id: version
+    attributes:
+      label: "Game version / Versión del juego"
+      description: "It is in the bottom left corner of the title screen / Está en la esquina inferior izquierda de la pantalla de inicio"
+      placeholder: "0.6.2-alpha"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: "The game's log (log.txt) / El registro del juego (log.txt)"
+      description: |
+        The game writes everything that happens in data/cache/log.txt in its folder on the SD card (sdmc:/3ds/platform-shooter/data/cache/). Close the game from the HOME Menu after the bug, then drag log.txt into this box.
+        El juego apunta todo lo que pasa en data/cache/log.txt en su carpeta de la tarjeta SD (sdmc:/3ds/platform-shooter/data/cache/). Cierra el juego desde el menú HOME después del fallo y arrastra log.txt a este cuadro.
+      placeholder: "Drag log.txt here / Arrastra log.txt aquí"
+    validations:
+      required: true
+  - type: checkboxes
+    id: log_attached
+    attributes:
+      label: "The log / El registro"
+      options:
+        - label: "I attached log.txt / He adjuntado log.txt"
+          required: true
+  - type: textarea
+    id: packs
+    attributes:
+      label: "Packs turned on / Paquetes activados"
+      description: "The texture packs you have on, if any / Los paquetes de texturas que tengas activados, si hay"
+  - type: textarea
+    id: more
+    attributes:
+      label: "Anything else / Algo más"
+      description: "Screenshots, videos... / Capturas, vídeos..."
