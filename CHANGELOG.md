@@ -1,18 +1,18 @@
 # Changelog / Cambios
 
 The 3DS version is the same game as the PSP version. Its versions start at
-0.7.0-alpha; what came before is in the PSP version's changelog.
+0.6.2-alpha; what came before is in the PSP version's changelog.
 
 La versión de 3DS es el mismo juego que la de PSP. Sus versiones empiezan
-en la 0.7.0-alpha; lo de antes está en los cambios de la versión de PSP.
+en la 0.6.2-alpha; lo de antes está en los cambios de la versión de PSP.
 
-## 0.7.0-alpha (in development / en desarrollo)
+## 0.6.2-alpha
 
 **English**
 
 The first 3DS version:
 
-- The whole game of the PSP version 0.7.0, written in C for the 3DS
+- The whole game of the PSP version 0.6.2, written in C for the 3DS
   without emulating anything, and playing exactly the same: the same
   levels, jumps, enemies and packs. A pack made for the PSP works on the
   3DS.
@@ -34,11 +34,7 @@ The first 3DS version:
 - The log (`data/cache/log.txt`) also writes down every touch and the
   calls to the SD card that take a long time.
 
-What 0.7.0 brings to the game (also on the PSP): *to be written when it
-is finished.*
-
-What 0.6.2 brought to the game (also on the PSP; it was not released on
-the 3DS on its own):
+What 0.6.2 brings to the game (also on the PSP):
 
 - The title screen shows the game's name. A pack can change it
   (`GAME_TITLE` in its texts).
@@ -57,7 +53,7 @@ the 3DS on its own):
 
 La primera versión para 3DS:
 
-- Todo el juego de la versión 0.7.0 de PSP, escrito en C para la 3DS sin
+- Todo el juego de la versión 0.6.2 de PSP, escrito en C para la 3DS sin
   emular nada, y que se juega exactamente igual: los mismos niveles,
   saltos, enemigos y paquetes. Un paquete hecho para la PSP funciona en
   la 3DS.
@@ -80,11 +76,7 @@ La primera versión para 3DS:
 - El registro (`data/cache/log.txt`) también apunta cada toque y las
   llamadas a la tarjeta SD que tardan mucho.
 
-Lo que la 0.7.0 trae al juego (también en la PSP): *se escribirá cuando
-esté terminada.*
-
-Lo que la 0.6.2 trajo al juego (también en la PSP; no salió sola en la
-3DS):
+Lo que la 0.6.2 trae al juego (también en la PSP):
 
 - La pantalla de inicio enseña el nombre del juego. Un paquete puede
   cambiarlo (`GAME_TITLE` en sus textos).
